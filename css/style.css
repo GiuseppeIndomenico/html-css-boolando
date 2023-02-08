@@ -46,7 +46,7 @@ header {
 }
 
 nav {
-    max-width: 1200px;
+    max-width: 1250px;
     margin: auto;
     color: white;
     padding: 1rem 0rem;
@@ -82,7 +82,7 @@ i:hover {
 /*main*/
 
 main {
-    max-width: 1200px;
+    max-width: 1250px;
     margin: auto;
 
 
@@ -99,7 +99,8 @@ main {
     position: relative;
     max-width: calc(100%/3);
     margin-top: 2.5rem;
-    margin-right: 1rem;
+    margin-right: .25rem;
+    margin-left: .25rem;
     min-width: 400px
 }
 
@@ -190,7 +191,7 @@ footer {
 }
 
 .info-bot {
-    max-width: 1200px;
+    max-width: 1250px;
     margin: auto;
     color: white;
     padding:1rem 0rem;
