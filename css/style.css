@@ -33,9 +33,44 @@ youtube:     <i class="fa-brands fa-youtube"></i>
     --footer: #1a1a1a;
 }
 
-.debug{
+.debug {
     border: 1px solid black;
 }
 
 /*header*/
 
+header {
+    background-color: var(--header);
+}
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+.top-bar img {
+    max-height: 2rem;
+}
+
+li {
+    padding: .5rem
+}
+
+
+i {
+    padding: .5rem;
+}
+
+i:hover{cursor: pointer;}
