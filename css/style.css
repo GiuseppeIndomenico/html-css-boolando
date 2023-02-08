@@ -42,6 +42,7 @@ youtube:     <i class="fa-brands fa-youtube"></i>
 
 header {
     background-color: var(--header);
+    box-shadow: 0 0 5px 0;
 }
 
 nav {
