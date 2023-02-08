@@ -49,7 +49,7 @@ nav {
     max-width: 1200px;
     margin: auto;
     color: white;
-    padding: 1rem;
+    padding: 1rem 0rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -84,12 +84,23 @@ i:hover {
 main {
     max-width: 1200px;
     margin: auto;
+       
+
+}
+
+.top-card, .bottom-card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: row wrap;
 }
 
 .card {
     position: relative;
-    max-width: 400px;
+    max-width: calc(100%/3);
     margin-top: 2.5rem;
+    margin-right: 5px;
+    min-width: 400px
+    
 }
 
 
