@@ -84,11 +84,12 @@ i:hover {
 main {
     max-width: 1200px;
     margin: auto;
-       
+
 
 }
 
-.top-card, .bottom-card{
+.top-card,
+.bottom-card {
     display: flex;
     justify-content: space-between;
     flex-wrap: row wrap;
@@ -100,7 +101,6 @@ main {
     margin-top: 2.5rem;
     margin-right: 1rem;
     min-width: 400px
-    
 }
 
 
@@ -181,4 +181,37 @@ span {
 .wishlist:hover {
     color: red;
     cursor: pointer;
+}
+
+/*footer*/
+
+footer {
+    background-color: var(--footer);
+}
+
+.info-bot {
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+    padding:1rem 0rem;
+    padding-bottom: 2rem;   
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.association{
+    padding:5px
+}
+
+a:hover {
+    text-decoration: underline;
 }
